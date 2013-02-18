@@ -1,0 +1,45 @@
+@import url(../../../stylesheets/application.css);
+
+body{ color:#303030; background:#e8eaec; background-image: url(../images/main_bg.png); }
+
+#top-menu { font-size: 100%; height: 2em; padding-top: 0.5em; background-color: #e25844; box-shadow: 0 0 2px rgba(0, 0, 0, .52); position: relative; z-index: 1; }
+#top-menu a { font-weight: normal; }
+#header { background-color: #fff9ee; background-image: url(../images/main_bg.png); color: #e25844; height:5.8em; padding: 10px 0 0 0; border-bottom: 1px solid #ccc8bb; }
+#header h1 { margin-left: 6px; }
+#header a { color: #e25844; }
+#quick-search { margin-right: 6px; }
+#main-menu { background-color: #fff9ee; background-image: url(../images/main_bg.png); left: 0; width: 100%; }
+#main-menu li { margin: 0; padding: 0; }
+#main-menu li a { background-color: #fff9ee; background-image: url(../images/main_bg.png); font-size: 100%; padding: 4px 8px 4px 8px; color: #e25844; font-weight: normal; }
+#main-menu li a:hover { background-color: #fff9ee; background-image: url(../images/main_bg.png); color: #e25844; text-decoration: underline; }
+#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #fff9ee; background-image: url(../images/main_bg.png); color: #e25844; font-weight: bold; }
+
+#footer { background-color: #e25844; border: 0; color: #fff;}
+#footer a { color: #fff; font-weight: bold; }
+
+::selection { background: #e25844; color: #fff9ee; }
+
+#main { font:100% Verdana, Tahoma, Arial, sans-serif, "나눔고딕", "NanumGothic", "NanumGothicOTF"; background: #fff9ee; background-image: url(../images/main_bg.png); }
+#main a { font-weight: normal; color: #e25844;}
+#main a:hover { color: #e25844; text-decoration: underline; }
+#content { background: #fff9ee; background-image: url(../images/main_bg.png); }
+#content .tabs ul { bottom:-1px; }
+
+h1, h2, h3, h4 { font-family: Verdana, Tahoma, Arial, sans-serif, "나눔고딕", "NanumGothic", "NanumGothicOTF"; }
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#606060; font-family: Verdana, Tahoma, Arial, sans-serif, "나눔고딕", "NanumGothic", "NanumGothicOTF"; }
+h2, .wiki h1 { letter-spacing:-1px; }
+h4 { border-bottom: dotted 1px #c0c0c0; }
+
+#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help { 
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+#top-menu a.home { background-image: url(../images/home.png); }
+#top-menu a.my-page { background-image: url(../../../images/user.png); }
+#top-menu a.projects { background-image: url(../../../images/projects.png); }
+#top-menu a.administration { background-image: url(../images/wrench.png); }
+#top-menu a.help { background-image: url(../../../images/help.png); }
