@@ -1,9 +1,9 @@
 set_default(:mysql_host, "localhost")
-set_default(:mysql_user) { "nuvo" }
-set_default(:mysql_root_password) { "welcome2nv" }
-set_default(:mysql_password) { "welcome2nv" }
-set_default(:mysql_production_database) { "nuvo" }
-set_default(:mysql_production_host) { "db2.xnuvo.com" }
+set_default(:mysql_user) { "redmine" }
+set_default(:mysql_root_password) { "redmine" }
+set_default(:mysql_password) { "redmine" }
+set_default(:mysql_production_database) { "redmine" }
+set_default(:mysql_production_host) { "redmine.xnuvo.com" }
 
 namespace :mysql do
   desc "Install the latest stable release of MySQL."
