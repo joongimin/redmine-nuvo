@@ -30,3 +30,5 @@
 /Gemfile.lock
 /Gemfile.local
 
+.DB_Store
+.DS_Store
