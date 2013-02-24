@@ -26,7 +26,6 @@ load "config/recipes/nginx"
 load "config/recipes/unicorn"
 load "config/recipes/rbenv"
 load "config/recipes/mysql"
-load "config/recipes/assets"
 
 after "deploy:update_code", "deploy:migrate"
 after "deploy", "deploy:cleanup" # keep only the last 5 releases
